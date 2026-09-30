@@ -25,9 +25,7 @@ final class ViewModel {
                 return
             }
             self.items = success
-            DispatchQueue.main.async {
-                self.delegate?.viewModelDidUpdateItems(self)
-            }
+            self.delegate?.viewModelDidUpdateItems(self)
         }
     }
     

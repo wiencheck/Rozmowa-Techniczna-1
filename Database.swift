@@ -7,13 +7,6 @@
 
 import Foundation
 
-/*
- Zadanie:
- a) Dodaj obsługę zaznaczania przeczytania danego elementu. Informacje te mają być przechowywane między włączeniami aplikacji
- b) Zaimplementuj wariant metody fetchItems przygotowany pod concurrency
- c) Wprowadź zabezpieczenie aby metody które modyfikują dane mogły działać tylko jedna na raz
- */
-
 final class Database {
     
     struct FileNotFoundError: Error {}
